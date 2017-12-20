@@ -4,8 +4,6 @@
 
 This tool simply listens to various certificate transparency logs (via certstream) and attempts to find ~~public S3 buckets~~ domains from permutations of the certificates domain name.
 
-**Be responsible**. I mainly created this tool to highlight the risks associated with public S3 buckets and to put a different spin on the usual dictionary based attacks. Some quick tips if you use S3 buckets:
-
 This is based on the work done by https://github.com/eth0izzle/bucket-stream to monitor s3 buckets.
 
 ## Installation
